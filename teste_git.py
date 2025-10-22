@@ -1,3 +1,5 @@
+from mult.py import mutiplicacao()
+from divis.py import divisão()
 def soma():
     n1 = int(input("me informe o primeiro valor"))
     n2 = int(input("me informe o segundo valor\n"))
@@ -19,6 +21,6 @@ while True:
     if escolha == 2:
         subtração()
     if escolha == 3:
-        multiplicação()
+        multiplicacao()
     if escolha == 4:
         divisão()
